@@ -46,6 +46,7 @@ img{
 }
 .name{
     color: var(--White);
+    text-align: center;
 }
 .adres{
     color: var(--Green);
@@ -53,6 +54,7 @@ img{
 }
 .bio{
     color: var(--White);
+    text-align: center;
 }
 button{
     background-color: var(--Grey_700);
