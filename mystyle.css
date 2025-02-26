@@ -1,0 +1,71 @@
+:root{
+    
+
+--White: hsl(0, 0%, 100%);
+
+--Grey_700: hsl(0, 0%, 20%);
+--Grey_800: hsl(0, 0%, 12%);
+--Grey_900: hsl(0, 0%, 8%);
+--Green: hsl(75, 94%, 57%);
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+.main{
+    padding: 20px;
+    background-color: var(--Grey_900);
+    height: 100vh;
+}
+.sub{
+    border-radius: 15px;
+    padding: 30px;
+    background-color: var(--Grey_800);
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+.sub div:first-child{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.btm{
+    display:flex;
+    flex-direction:column;
+    align-items: center;
+    gap: 15px;
+    width: 100%;
+
+}
+img{
+    border-radius: 50%;
+    height: 150px;
+    width: 150px;
+}
+.name{
+    color: var(--White);
+}
+.adres{
+    color: var(--Green);
+    text-align: center;
+}
+.bio{
+    color: var(--White);
+}
+button{
+    background-color: var(--Grey_700);
+    color: var(--White);
+    width: 80%;
+    padding: 10px;
+    border-radius: 10px;
+    border: none;
+    padding: 20px;
+    transition: background-color .5s, color .5s;
+    cursor: pointer;
+}
+button:hover{
+    background-color: var(--Green);
+    color: var(--Grey_900);
+}
